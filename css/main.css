@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(-90deg, rgb(236, 89, 190), rgb(67, 223, 85), rgb(23, 5, 91));
+}
+
+.box .container {
+    padding: 30px;
+    margin-top: 100px;
+    background: linear-gradient(-45deg, rgb(236, 89, 190), rgb(67, 223, 85), rgb(45, 17, 121));
+    border-radius: 5px;
+    box-shadow: 2px 1px 20px;
+    text-shadow: 2px 1px 5px gray;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.name {
+    line-height: 40px;
+}
+
+.scores {
+    line-height: 40px;
+}
+
+select {
+    padding: 5px 50px 5px 5px;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+margin-left: 60px;
+}
+
+.basic {
+    font-size: 30px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+
+.basic input {
+    padding: 10px 200px 10px 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.modal {
+    width: 450px;
+    height: 330px;
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    left: 550px;
+    left: 50%;
+    transform: translate(-50%);
+    background: linear-gradient(45deg, rgb(255, 1, 255), rgb(255, 1, 255), rgb(255, 213, 1), rgb(62, 223, 255), rgb(62, 223, 255));
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px white;
+    display: none;
+}
+
+.modal.active {
+    display: block;
+}
+
+.game_over button {
+    padding: 5px 10px;
+    margin-top: 80px;
+    border-radius: 30px;
+    background: linear-gradient(-45deg, rgb(255, 1, 255), rgb(255, 1, 255), rgb(255, 213, 1), rgb(62, 223, 255), rgb(62, 223, 255));
+    box-shadow: 2px 2px 10px white;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.your_result button {
+    padding: 5px 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background: linear-gradient(-45deg, rgb(255, 1, 255), rgb(255, 1, 255), rgb(255, 213, 1), rgb(62, 223, 255), rgb(62, 223, 255));
+    box-shadow: 2px 2px 10px white;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.try button {
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 10px white;
+    padding: 5px 15px;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.sun {
+    width: 45px;
+    padding: 5px;
+    padding-left: 7px;
+}
+
+.sun .dot {
+    font-size: 30px;
+    transition: all .7s ease-in-out;
+    color: rgb(12, 235, 255);
+    text-shadow: 2px 2px 10px;
+
+}
+
+.dott {
+    display: none;
+    top: -400px;
+    transition: all .8s ease-in-out;
+
+
+}
+
+.sun.active .dot {
+    position: fixed;
+    top: -400px;
+}
+
+.sun.active .dott {
+    display: block;
+    top: 40px;
+    right: 365px;
+
+}
+
+.sun .dott {
+    font-size: 30px;
+    color: rgb(255, 251, 7);
+    transition: all .8s ease-in-out;
+
+}
+
+
+body.active {
+    background: linear-gradient(90deg, black, rgb(114, 114, 114));
+}
+
+
+body.active .box .container {
+    background: linear-gradient(90deg, black, rgb(86, 86, 86));
+    color: white;
+    text-shadow: 2px 1px 5px black;
+}
+
+body.active .modal {
+    background: linear-gradient(90deg, black, rgb(86, 86, 86));
+    text-shadow: 2px 1px 5px black;
+}
+
+body.active .modal button {
+    background: linear-gradient(45deg, white, gray, white);
+    color: black;
+    text-shadow: 2px 1px 5px white;
+
+}
+
+
+.time .plyus.active {
+    color: red;
+    font-weight: 700;
+}
+.basic h2 span{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.basic h2{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 467px){
+
+}
+
+
+
+
