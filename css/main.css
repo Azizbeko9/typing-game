@@ -11,13 +11,13 @@
 }
 
 body {
-    background: linear-gradient(-90deg, rgb(236, 89, 190), rgb(67, 223, 85), rgb(23, 5, 91));
+    background: linear-gradient(-90deg, rgb(187, 239, 193), rgb(117, 231, 130), rgb(172, 155, 234));
 }
 
 .box .container {
     padding: 30px;
     margin-top: 100px;
-    background: linear-gradient(-45deg, rgb(236, 89, 190), rgb(67, 223, 85), rgb(45, 17, 121));
+    background: linear-gradient(-90deg, rgb(187, 239, 193), rgb(117, 231, 130), rgb(143, 128, 197));
     border-radius: 5px;
     box-shadow: 2px 1px 20px;
     text-shadow: 2px 1px 5px gray;

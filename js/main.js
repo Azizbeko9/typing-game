@@ -47,9 +47,6 @@ selectValue.addEventListener("change", ()=>{
 
 const words = [
     "hello",
-    "Dilyorbek",
-    "Azizbek",
-    "Shaxriyor",
     "color",
     "charity",
     "drive",
@@ -67,9 +64,8 @@ const words = [
     "theatre",
     "password",
     "Neymar",
-    "Messi",
-    "Ronaldo",
-    "Kamronbek",
+    "messi",
+    "ronaldo",
     "red",
     "cap",
     "bottle",
