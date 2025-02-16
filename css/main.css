@@ -45,7 +45,7 @@ select {
     border: none;
     background-color: white;
     font-weight: 600;
-margin-left: 60px;
+    margin-left: 60px;
 }
 
 .basic {
@@ -56,9 +56,13 @@ margin-left: 60px;
 }
 
 .basic input {
-    padding: 10px 200px 10px 10px;
-    border-radius: 5px;
-    border: 2px solid black;
+    padding: 15px 200px 15px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.basic input:hover{
+    box-shadow: 2px 5px 15px;
 }
 
 .modal {
@@ -70,7 +74,8 @@ margin-left: 60px;
     left: 550px;
     left: 50%;
     transform: translate(-50%);
-    background: linear-gradient(45deg, rgb(255, 1, 255), rgb(255, 1, 255), rgb(255, 213, 1), rgb(62, 223, 255), rgb(62, 223, 255));
+    background: linear-gradient(-90deg, rgb(187, 239, 193), rgb(117, 231, 130), rgb(143, 128, 197));
+
     border-radius: 10px;
     box-shadow: 2px 2px 40px white;
     display: none;
@@ -84,7 +89,8 @@ margin-left: 60px;
     padding: 5px 10px;
     margin-top: 80px;
     border-radius: 30px;
-    background: linear-gradient(-45deg, rgb(255, 1, 255), rgb(255, 1, 255), rgb(255, 213, 1), rgb(62, 223, 255), rgb(62, 223, 255));
+    background: linear-gradient(-90deg, rgb(187, 239, 193), rgb(117, 231, 130), rgb(143, 128, 197));
+
     box-shadow: 2px 2px 10px white;
     border: none;
     font-size: 30px;
@@ -95,12 +101,20 @@ margin-left: 60px;
     padding: 5px 50px;
     margin-top: 30px;
     border-radius: 30px;
-    background: linear-gradient(-45deg, rgb(255, 1, 255), rgb(255, 1, 255), rgb(255, 213, 1), rgb(62, 223, 255), rgb(62, 223, 255));
+    background: linear-gradient(-90deg, rgb(187, 239, 193), rgb(117, 231, 130), rgb(143, 128, 197));
     box-shadow: 2px 2px 10px white;
     border: none;
     font-size: 30px;
     font-weight: 700;
 
+}
+
+.your_result button:hover {
+    box-shadow: 15px 10px 5px gray;
+}
+
+.game_over button:hover {
+    box-shadow: 15px 10px 5px gray;
 }
 
 .try button {
@@ -185,12 +199,14 @@ body.active .modal button {
     color: red;
     font-weight: 700;
 }
-.basic h2 span{
+
+.basic h2 span {
     display: flex;
     justify-content: center;
     gap: 5px;
 }
-.basic h2{
+
+.basic h2 {
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -204,10 +220,4 @@ body.active .modal button {
 
 
 
-@media(max-width: 467px){
-
-}
-
-
-
-
+@media(max-width: 467px) {}
